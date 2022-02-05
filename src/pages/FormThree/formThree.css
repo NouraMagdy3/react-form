@@ -1,0 +1,36 @@
+.form {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+.container .ant-cascader {
+    width: 40rem;
+}
+.submit {
+    margin-top: 20px;
+    align-self: flex-end;
+}
+.input-cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.label {
+    min-width: 150px;
+}
+.input-content{
+    width: 40rem;
+
+}
+.error {
+    color: red !important;
+    font-size: 12px;
+}
